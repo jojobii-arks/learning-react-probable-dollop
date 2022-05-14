@@ -80,7 +80,7 @@ CREATE TABLE "armor" (
 
 CREATE TABLE "weaponSeries" (
   "seriesId" SERIAL PRIMARY KEY NOT NULL,
-  "name" string NOT NULL,
+  "name" text NOT NULL,
   "rarity" integer NOT NULL
 );
 
